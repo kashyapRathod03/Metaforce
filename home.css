@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    flex-wrap: wrap;
+    background-color: rgba(33, 0, 118, 0.895);
+}
+
+.container-fluid {
+    margin-left: 4%;
+    font-size: 2.5vh;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 4vh;
+}
+
+.navbar-collapse{
+    margin: 0% 0% 0% 23%;
+}
+
+.nav-item {
+    margin: 0% 0% 0% 0%;
+}
+.nav-item:hover{
+    font-weight: 600;
+}
+.nav-item:active{
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 720px) {
+    .navbar {
+    background-color: rgba(33, 0, 118, 0.895);
+    }
+    .navbar-collapse{
+        margin: 0% 0% 0% 10%;
+    }
+    .custom-nav-div {
+        margin: 0% 2% 0% 2%;
+    }
+}
+
+.main-img-div{
+    width: 100%;
+    /* border: 10px solid rgb(24, 27, 217); */
+}
+.child-img-div{
+    width: 100%;
+    margin: 1% 0% 1% 0%;
+    /* border: 10px solid rgb(232, 11, 11); */
+}
+.child-img-div>img{
+    width: 100%;
+    /* border: 10px solid rgb(232, 11, 11); */
+}
+
+/* ............................................................................................................. */
+footer{
+    background-color: rgba(34, 0, 120, 0.957);
+}    
+.footer {
+        height: fit-content;
+        color: white;
+        line-height: 1;
+        padding: 3% 2% 3% 2%;
+        margin: 0% 0% -1% 0%;
+    }
+    .comapnydisc {
+        text-align: justify;
+    }
+
+    .comapnydisc>h5 {
+        font-size: 2.5vh;
+    }
+    @media only screen and (max-width: 720px) {
+        .comapnydisc>h5 {
+            font-size: 2vh;
+        }
+    }
+  
